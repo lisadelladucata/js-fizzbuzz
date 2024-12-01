@@ -13,6 +13,12 @@ for (let i = 1; i <= 100 ; i++){
         output = 'Fizz'
     }
 
+    //se multiplo di 5 aggiungi 'Buzz'
+    if(i % 5 === 0){
+        output='Buzz'
+    }
+
+    
     console.log (i)
     console.log(output)
 }
