@@ -18,7 +18,11 @@ for (let i = 1; i <= 100 ; i++){
         output='Buzz'
     }
 
-    
+    // se multiplo sia di 3 che di 5 aggiungi 'FizzBuzz'
+    if(i % 3 === 0 && i % 5=== 0){
+        output='FizzBuzz'
+    }
+
     console.log (i)
     console.log(output)
 }
