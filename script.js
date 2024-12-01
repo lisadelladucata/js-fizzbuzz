@@ -7,5 +7,12 @@ Abbiamo visto qualcosa di particolare che possiamo usare?*/
 
 for (let i = 1; i <= 100 ; i++){
     let output = ''
-    console.log (output)
+
+    //se multiplo di 3 aggiungi 'Fizz'
+    if( i % 3 === 0){
+        output = 'Fizz'
+    }
+
+    console.log (i)
+    console.log(output)
 }
