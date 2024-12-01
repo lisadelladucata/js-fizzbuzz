@@ -5,3 +5,7 @@ Prima di partire a scrivere codice poniamoci qualche domanda:
 Come faccio a sapere se un numero è divisibile per?
 Abbiamo visto qualcosa di particolare che possiamo usare?*/
 
+for (let i = 1; i <= 100 ; i++){
+    let output = ''
+    console.log (output)
+}
